@@ -1,13 +1,179 @@
-body {
+body{
+  box-sizing: border-box;
+  background-color: black ;
+  color: white;
+  text-align: center;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.landingpage{
+ align-items: center;
+ margin: 30px;
+}
+
+img{
+  width: 1000px;
+  height: 700px;
+}
+
+
+header{
+
+  background-color: rgb(20, 19, 19);
+  padding: 10px;
+
+  
+}
+
+header h1{
+ text-align:left ;
+ margin-left: 50px;
+ text-transform: uppercase;
+ 
+}
+
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+   background-color: #171414;
+   padding: 15px;
+   position: sticky;
+   top: 0;
+   width: 100%;
+}
+
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  display: flex;
+ 
+  
+  
+  
+}
+
+nav li{
+display: table-cell;
+position: relative;
+padding: 15px 20px;
+font-size: 20px;
+align-items: flex-start;
+
+
+}
+
+nav a{
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display:inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+
+
+nav li:hover{
+  box-shadow: 0px 0px 200px 86px #000000;
+  -webkit-box-shadow:0px 0px 400px 86px #131010;
+  -moz-box-shaow:0px 0px 400px 86px #100e0e;
+background-color: #322c2c;
+}
+
+.reviews{
+  margin: 20px;
+  padding: 15px;
+}
+
+.reviews textarea{
+  width: 30%;
+}
+
+
+
+.reviews button{
+ /* display: flex; 
+ justify-content: center; */
+ margin: 20px;
+ padding: 5px;
+}
+
+.review-list{
+  
+  width: 50%;
+  margin: 60px;
+  text-align: center;
+}
+
+
+.main-carlist img{
+   width: 500px;
+   height: 400px;
+}
+
+.carlist{
+
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:20px;
+  padding: 36px;
+  
+  
+
+}
+
+.carlist li{
+  background-color: #555;
+  border-radius: 11px;
+  padding: 16px;
+}
+
+.aboutus{
+ margin: 45px auto;
+text-align: center;
+width: 50%;
+font-size: 20px;
+background-color: #2b2a2a;
+border-radius: 10px;
+padding: 30px;
+}
+
+
+.footer{
+  width: 100%;
+  height: 14vh;
+}
+
+link{
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display:inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.car-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.car-details img{
+width: 600px ;
+height: 500px;
+margin: 65px;
+
+}
+.car-details .more-info{
+  text-align: center;
 }

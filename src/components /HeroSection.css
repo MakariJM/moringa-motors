@@ -1,0 +1,14 @@
+.car-info{
+    width: 51%;
+    margin:8px auto;
+    padding: 20px;
+    background-color: grey;
+    height:20vh;
+   text-align: center;
+   border-radius: 20px;
+}
+
+.hero-section button{
+  padding:5px;
+  margin: 10px ;
+}
